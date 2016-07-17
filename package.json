@@ -1,6 +1,6 @@
 {
-  "name": "trace-cli",
-  "version": "1.0.0",
+  "name": "@risingstack/trace-cli",
+  "version": "1.0.1",
   "description": "CLI for Trace by RisingStack",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,42 @@
+{
+  "name": "trace-cli",
+  "version": "1.0.0",
+  "description": "CLI for Trace by RisingStack",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test TZ=utc mocha test.setup.js 'bin/**/*.spec.js' 'lib/**/*.spec.js'",
+    "coverage": "NODE_ENV=test TZ=utc istanbul cover _mocha -- test.setup.js 'bin/**/*.spec.js' 'lib/**/*.spec.js'",
+    "coverage-open": "npm run coverage; open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RisingStack/trace-cli.git"
+  },
+  "author": "RisingStack Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RisingStack/trace-cli/issues"
+  },
+  "homepage": "https://github.com/RisingStack/trace-cli#readme",
+  "bin": {
+    "trace-cli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "2.9.0",
+    "lodash.merge": "4.4.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.1.0",
+    "eslint-config-standard": "5.3.5",
+    "eslint-plugin-mocha": "4.0.0",
+    "eslint-plugin-promise": "2.0.0",
+    "eslint-plugin-standard": "2.0.0",
+    "istanbul": "0.4.4",
+    "mocha": "2.5.3",
+    "nock": "8.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}

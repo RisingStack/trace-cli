@@ -4,11 +4,15 @@ Command line utility for [Trace by RisingStack](https://trace.risingstack.com/) 
 
 ## requirements
 
-`node >= 4.x.x`
+```
+node >= 4.x.x
+```
 
 ## install
 
+```
 npm i -g @risingstack/trace-cli
+```
 
 ## usage
 

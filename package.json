@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/RisingStack/trace-cli#readme",
   "bin": {
-    "trace-cli": "./bin/cli.js"
+    "trace-cli": "./bin/trace-cli.js"
   },
   "dependencies": {
     "commander": "2.9.0",

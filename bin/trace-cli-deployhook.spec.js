@@ -3,7 +3,7 @@
 const expect = require('chai').expect
 const execSync = require('child_process').execSync
 const path = require('path')
-const cli = path.join(__dirname, 'cli-deployhook')
+const cli = path.join(__dirname, 'trace-cli-deployhook')
 
 describe('deployhook', function () {
   it('should reject without api key', () => {

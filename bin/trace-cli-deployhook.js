@@ -29,7 +29,7 @@ if (!apiKey) {
   process.exit(1)
 }
 if (!serviceName) {
-  console.error('--serice-name argument or TRACE_SERVICE_NAME environment variable is required')
+  console.error('--service-name argument or TRACE_SERVICE_NAME environment variable is required')
   process.exit(1)
 }
 

@@ -45,7 +45,7 @@ if (program.git) {
   const gitRevision = deployhook.revision.getGIT()
   revision = merge(revision, gitRevision)
 } else {
-  ['message', 'revison', 'user'].forEach((arg) => {
+  ['message', 'revision', 'user'].forEach((arg) => {
     if (!program[arg]) {
       console.error(`--${arg} argument is required, or use --git`)
       process.exit(1)
